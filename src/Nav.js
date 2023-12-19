@@ -1,4 +1,5 @@
 import { Link, useLocation} from "react-router-dom";
+import "./nav.css";
 function Nav() {
  const { pathname } = useLocation();
  return (
@@ -7,6 +8,7 @@ function Nav() {
         <Link className="nav-link" to="/about">About</Link>
         <Link className="nav-link" to="/projects">Projects</Link>
         <Link className="nav-link" to="/pics">Pics</Link>
+        <Link className="nav-link" to="/writing">Writing</Link>
         <Link className="nav-link" to="/fun">Fun</Link>
     </nav>
     );

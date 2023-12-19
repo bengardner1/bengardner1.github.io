@@ -1,0 +1,7 @@
+[
+    {"name" : "Linux Shell", "git_link" : "Available Upon Request", "image_path" : "none",
+    "description" : "Built a functioning linux shell that runs all built in commands and supports piping as well as import and output redirection"},
+    {"name" : "Seam Carver", "git_link" : "Available Upon Request", "image_path" : "none"},
+    {"name" : "Country Game", "git_link" : "Available Upon Request", "image_path" : "none"},
+    {"name" : "Image Processor", "git_link" : "Available Upon Request", "image_path" : "none"}
+]

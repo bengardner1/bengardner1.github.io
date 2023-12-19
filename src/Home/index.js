@@ -1,7 +1,15 @@
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
+            {/* Intro card */}
+            <section className="bg-banner-section">
+                <div className="bg-banner-container">
+                Ben Gardner
+                </div>
+            </section>
+            <section className="bg-test-font">
+            "I'm fresh, I'm fresh, I'm fresh, I'm fresh, I'm fresh" - Thaiboy Digital
+                </section>
         </div>
     );
 }

@@ -15,3 +15,37 @@ code {
 .bg-pfp1 {
   width: 300px;
 }
+
+.bg-card {
+  max-width: 260px;
+    height: 300px !important;
+    min-width: 260px !important;
+    margin: 30px;
+}
+
+.bg-banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 550px;
+}
+
+.bg-banner-section {
+  display: flex;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.bg-test-font {
+  font-family: Southern_Aire;
+  font-size: 100px;
+}
