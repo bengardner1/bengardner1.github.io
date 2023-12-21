@@ -2,3 +2,20 @@
     font-family: 'Southern_Aire';
     src: local('Southern_Aire'), url('./SouthernAire_Personal_Use_Only.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: local('Josefin_Sans_Light'), url('./JosefinSans-Light.ttf') format('truetype');
+    font-weight: 300; /* Specify the font weight */
+}
+
+@font-face {
+    font-family: 'Josefin_Sans_Bold';
+    src: local('Josefin_Sans_Bold'), url('./JosefinSans-Bold.ttf') format('truetype');
+    font-weight: bold; /* Specify the font weight */
+}
+
+@font-face {
+    font-family: 'Charmelade';
+    src: local('Charmelade') , url('./charmeladeDEMO.otf') format('opentype');
+}
+

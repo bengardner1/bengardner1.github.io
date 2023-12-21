@@ -7,7 +7,9 @@ import Writing from "./Writing";
 import {HashRouter} from "react-router-dom";
 import {Routes, Route, Navigate} from "react-router";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import './vendors/css/bootstrap.min.css';
+import './vendors/fontawesome/css/all.css';
 import "./index.css";
 import "./Fonts/font.css"
 
@@ -25,6 +27,7 @@ function App() {
           <Route path="/writing"    element={<Writing/>}/>
           <Route path="/fun"    element={<Fun/>}/>
         </Routes>
+        <Footer/>
       </div>
       </HashRouter>
   );

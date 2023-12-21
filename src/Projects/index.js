@@ -1,8 +1,13 @@
 import projects from './projects.json';
+import './index.css';
+
 function Projects() {
     return (
         <div>
-            <h1>Projects</h1>
+            <div className='bg-title'>
+                <h1>Projects</h1>
+                <p>All Git Repos available upon request email bengardner433@gmail.com</p>
+            </div>
             <div className='d-flex flex-row flex-wrap'>
                 {projects.map((project) => (
                     <div className='card bg-card'>
@@ -13,6 +18,7 @@ function Projects() {
                     </div>
                 ))}
                 </div>
+                
         </div>
     );
 }

@@ -1,0 +1,16 @@
+.bg-projects-head h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.bg-card {
+    max-width: 260px;
+      height: 300px !important;
+      min-width: 260px !important;
+      margin: 30px;
+  }
+
+.bg-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

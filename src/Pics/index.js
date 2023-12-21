@@ -1,7 +1,11 @@
+import "./index.css";
 function Pics() {
     return (
         <div>
-            <h1>Pics</h1>
+            <div className="bg-title">  
+                <h1>Pictures</h1>
+                <p>Here are some pictures of me and my life.</p>
+            </div>
         </div>
     );
 }

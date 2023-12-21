@@ -1,41 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Josefin_Sans !important
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.bg-pfp1 {
-  width: 300px;
-}
-
-.bg-card {
-  max-width: 260px;
-    height: 300px !important;
-    min-width: 260px !important;
-    margin: 30px;
-}
-
-.bg-banner-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  width: 550px;
-}
-
-.bg-banner-section {
-  display: flex;
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  font-family: Josefin_Sans
 }
 
 section {
@@ -45,7 +14,35 @@ section {
   padding: 2rem 0;
 }
 
-.bg-test-font {
-  font-family: Southern_Aire;
-  font-size: 100px;
+p {
+  font-family: Josefin_Sans;
+}
+
+.nav-link {
+  font-family: Josefin_Sans;
+}
+
+.bg-footer {
+  position: fixed;
+  height: 20px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+
+.bg-arrow-to-fun {
+   flex-direction: column;
+   margin-top: 10%;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.bg-title {
+  font-family: Josefin_Sans;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

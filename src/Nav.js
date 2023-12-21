@@ -1,16 +1,30 @@
-import { Link, useLocation} from "react-router-dom";
-import "./nav.css";
-function Nav() {
- const { pathname } = useLocation();
- return (
-    <nav className="nav nav-tabs mt-2">
-         <Link className={`nav-link ${pathname.includes("home") ? "active" : ""}`} to="/home">Home</Link>
-        <Link className="nav-link" to="/about">About</Link>
-        <Link className="nav-link" to="/projects">Projects</Link>
-        <Link className="nav-link" to="/pics">Pics</Link>
-        <Link className="nav-link" to="/writing">Writing</Link>
-        <Link className="nav-link" to="/fun">Fun</Link>
-    </nav>
-    );
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+
+function NavItem({ to, label }) {
+  const { pathname } = useLocation();
+
+  return (
+    <Link
+      to={to}
+      className={`nav-link ${pathname.includes(to) ? "active" : ""}`}
+    >
+      {label}
+    </Link>
+  );
 }
+
+function Nav() {
+  return (
+    <nav className="nav nav-tabs mt-2">
+      <NavItem to="/home" label="Home" />
+      <NavItem to="/about" label="About" />
+      <NavItem to="/projects" label="Projects" />
+      <NavItem to="/pics" label="Pics" />
+      <NavItem to="/writing" label="Writing" />
+      <NavItem to="/fun" label="Fun" />
+    </nav>
+  );
+}
+
 export default Nav;
