@@ -5,14 +5,18 @@ import { IoMail } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import resume from '../Images/Ben_Gardner_Resume.pdf';
 import './index.css';
+import { FaPython, FaJava} from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 
 function Home() {
+    const size = 50;
+    const logos = [<FaPython size={size}/>, <FaJava size={size}/>, <SiMysql size={size}/>]
     return (
         <div>
             {/* Intro card */}
             <section className="bg-banner-section">
                 <img src={BannerPic} className='bg-banner-pic'></img>
-                <div className="bg-banner-container bg-banner-column"> {/* Added bg-banner-column class */}
+                <div className="bg-banner-container bg-banner-column"> 
                     <div>
                     <h3>Ben Gardner</h3> 
                     <h4>Software Engineer, Student</h4>
@@ -41,6 +45,18 @@ function Home() {
                 </section>
                 <section className='bg-arrow-to-fun'>
                     There will be something funny and quirky or maybe just professional who knows
+                </section>
+                <section>
+                    <div>
+                        <h3>Skills</h3>
+                        {logos.map((logo) => {
+                            return (
+                                <div>
+                                    {logo}
+                                </div>
+                            )
+                        })}
+                    </div>
                 </section>
         </div>
     );

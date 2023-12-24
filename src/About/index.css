@@ -1,0 +1,23 @@
+.bg-facts {
+    margin-top: 80px;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    box-shadow: 1;
+}
+
+.bg-facts-card {
+    display: flex;
+    flex-direction: column; /* Set flex-direction to column */
+    justify-content: center;
+    align-items: center;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover {
+    color: rgb(12, 69, 5);
+}
+

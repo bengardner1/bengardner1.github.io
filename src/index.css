@@ -46,3 +46,17 @@ p {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.bg-pic {
+  max-width: 400px;
+  max-height: 50vh;
+}
+
+.bg-pic:hover {
+  transform: scale(1.1);
+}
+
+.bg-pfp1 {
+  width: 300px;
+  border-radius: 5px;
+}

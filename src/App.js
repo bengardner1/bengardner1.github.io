@@ -27,7 +27,6 @@ function App() {
           <Route path="/writing"    element={<Writing/>}/>
           <Route path="/fun"    element={<Fun/>}/>
         </Routes>
-        <Footer/>
       </div>
       </HashRouter>
   );

@@ -19,7 +19,7 @@ const TimeSinceDob = () => {
   const addCommas = (num) => num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ', ');
   return (
     <div>
-      <p>Seconds since I was born: {addCommas(elapsedSeconds)}</p>
+      <p className='d-block'>Seconds since I was born: {addCommas(elapsedSeconds)}</p>
     </div>
   );
 };
