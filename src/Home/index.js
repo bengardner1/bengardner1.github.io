@@ -5,12 +5,12 @@ import { IoMail } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import resume from '../Images/Ben_Gardner_Resume.pdf';
 import './index.css';
-import { FaPython, FaJava} from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
+
 
 function Home() {
     const size = 50;
-    const logos = [<FaPython size={size}/>, <FaJava size={size}/>, <SiMysql size={size}/>]
+    const pathStub = "../../Logos/"
+    const logos = ["python.png", "mysql.png", "java.png", "node.png", "react.png", "csharp.png"]
     return (
         <div>
             {/* Intro card */}
@@ -43,20 +43,22 @@ function Home() {
 
                     </div>
                 </section>
-                <section className='bg-arrow-to-fun'>
-                    There will be something funny and quirky or maybe just professional who knows
-                </section>
-                <section>
+                <section className='bg-skills-section'>
                     <div>
-                        <h3>Skills</h3>
+                        <h3 className='justify-content-center'>Skills</h3>
+                        <div className='bg-skills'>
                         {logos.map((logo) => {
                             return (
                                 <div>
-                                    {logo}
+                                    <img src={pathStub + logo} className='bg-skill-logo'></img>
                                 </div>
                             )
                         })}
                     </div>
+                    </div>
+                </section>
+                <section className='bg-arrow-to-fun'>
+                    There will be something funny and quirky or maybe just professional who knows
                 </section>
         </div>
     );

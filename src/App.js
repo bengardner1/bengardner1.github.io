@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Pics from "./Pics";
 import Fun from "./Fun";
 import Writing from "./Writing";
+import Piece from "./Writing/piece";
 import {HashRouter} from "react-router-dom";
 import {Routes, Route, Navigate} from "react-router";
 import Nav from "./Nav";
@@ -12,6 +13,7 @@ import './vendors/css/bootstrap.min.css';
 import './vendors/fontawesome/css/all.css';
 import "./index.css";
 import "./Fonts/font.css"
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route path="/pics"    element={<Pics/>}/>
           <Route path="/writing"    element={<Writing/>}/>
           <Route path="/fun"    element={<Fun/>}/>
+          <Route path="/writing/:piece" element={<Piece/>}/>
         </Routes>
       </div>
       </HashRouter>

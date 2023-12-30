@@ -47,7 +47,6 @@
     font-family: Josefin_Sans_Bold;
     border-radius: 30px;
     padding: 10px;
-    margin-right: 50px;
   }
   
   .bg-banner-container {
@@ -64,4 +63,30 @@
       height: 50vh;
       width: 100%;
       position: relative;
+  }
+
+  .bg-skill-logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+  }
+
+  .bg-skill-logo:hover {
+    transform: scale(1.1); 
+  }
+
+  .bg-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bg-skills-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
   }
