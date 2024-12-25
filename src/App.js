@@ -14,7 +14,6 @@ import './vendors/fontawesome/css/all.css';
 import "./index.css";
 import "./Fonts/font.css"
 
-
 function App() {
   return (
     <HashRouter>

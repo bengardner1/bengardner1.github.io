@@ -7,3 +7,39 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+
+@keyframes animateLink {
+    0% {
+        color : blue;
+    }
+    50% {
+        color : green
+    }
+    100% {
+        color : blue;
+    }
+}
+
+.geoguessr-link {
+    animation: animateLink 0.5s ease-in-out infinite;
+    font-family: Josefin_Sans_Bold;
+    display: inline;
+}
+
+.inline-p {
+    display: inline; 
+}
+
+.bg-writing-image {
+    max-width: 200px;
+}
+
+.bg-piece {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* .bg-writing-container {
+    width: 100%;
+} */

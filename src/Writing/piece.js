@@ -12,8 +12,8 @@ function Piece() {
         <h1>{pieceObject.title}</h1>
         <p>{pieceObject.date}</p>
         {pieceObject.component}
-        {pieceObject.note && <p className=""><h5 className="d-inline">Note:</h5> {pieceObject.note}</p>}
-        <p>If you have any comments, if you agree with me, or if you disagree with me, please email bengardner433@gmail.com.</p>
+        <p><hr/>If you have any comments, if you agree with me, or if you disagree with me, please email bengardner433@gmail.com.
+        {pieceObject.note && <p> Note: {pieceObject.note}</p>}</p>
         </div>}</div>
 }
 export default Piece;

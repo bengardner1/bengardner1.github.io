@@ -1,0 +1,79 @@
+.spotify-link i {
+    color: #1DB954; /* Spotify green */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .spotify-link i:hover {
+    color: #1ed760; 
+    transform: scale(1.1); 
+  }
+  
+  .spotify-link {
+    text-decoration: none; /* Removes underline from the link */
+  }
+
+  .instagram-link i {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease;
+  }
+  
+  .instagram-link i:hover {
+    transform: scale(1.1); /* Slight zoom-in effect */
+    background: linear-gradient(45deg, #00ff95, #0c8f3a, #4965ed, #352cde, #bf26e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .github-link i {
+    color: black; 
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .github-link i:hover {
+    color: #cccccc; 
+    transform: scale(1.1); 
+  }
+
+  .goodreads-link i {
+    color: #e9e5cd; /* Goodreads dark brown */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .goodreads-link i:hover {
+    color: #75420e;
+    transform: scale(1.1); 
+  }
+
+  .lastfm-link i {
+    color: #d51007;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .lastfm-link i:hover {
+    color: #a3140a;
+    transform: scale(1.1);
+  }
+
+  .linkedin-link i {
+    color: #0077b5;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .linkedin-link i:hover {
+    color: #005582;
+    transform: scale(1.1);
+  }
+
+  .bg-socials a {
+    margin: 0 10px;
+  }
+
+  .social-icon:first-child {
+    margin-left: 0; 
+  }
+  
+  .social-icon:last-child {
+    margin-right: 0;
+  }
