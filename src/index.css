@@ -1,10 +1,20 @@
 body {
   margin: 0;
-  font-family: Josefin_Sans !important
+  font-family: Josefin_Sans !important;
 }
 
 code {
   font-family: Josefin_Sans
+}
+
+a  {
+  color: #000000;
+  text-decoration: none;
+}
+
+.bg-link {
+  color: #000000 !important;
+  text-decoration: none !important;
 }
 
 section {
@@ -15,10 +25,6 @@ section {
 }
 
 p {
-  font-family: Josefin_Sans;
-}
-
-.nav-link {
   font-family: Josefin_Sans;
 }
 
@@ -34,10 +40,6 @@ p {
 .bg-arrow-to-fun {
    flex-direction: column;
    margin-top: 10%;
-}
-
-.nav-link {
-  color: black !important;
 }
 
 .bg-title {
@@ -77,12 +79,20 @@ p {
 
 .navbar-nav .nav-link {
   font-size: 1rem;
-  color: #000;
+}
+
+.bg-link-active {
+  color: rgb(134, 134, 134) !important;
+  text-decoration: bold !important;
+}
+
+.bg-link-inactive {
+  color: black !important;
   text-decoration: none;
 }
 
-.navbar-nav .nav-link:hover {
-  color: #007bff;
+.nav-link:hover {
+  color: #9a6fff; 
 }
 
 .text-container {
@@ -101,9 +111,4 @@ p {
 .text-container {
   transition: transform 0.6s; /* Smooth flipping animation */
   transform-origin: center;  /* Flip around the center */
-}
-
-.bg-link-active {
-  background-color: rgb(244, 244, 244);
-  border-radius: 30px;
 }

@@ -1,8 +1,15 @@
+import React from "react";
+
 function Footer() {
-    return (
-        <div className="bg-footer">
-            This website was built with React.js
-        </div>
-    )
+  return (
+    <footer className="bg-dark text-white py-4">
+      <div className="container text-center">
+        <p className="text-center">
+            This website was built with React and styled using Bootstrap (plus my blood, sweat, and tears).
+        </p>
+    </div>
+    </footer>
+  );
 }
+
 export default Footer;

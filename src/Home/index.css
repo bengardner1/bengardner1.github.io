@@ -94,8 +94,8 @@
   }
 
   footer {
-    background-image: url(/public/lawn.jpg);
+    /* background-image: url(/public/lawn.jpg);
     background-repeat: repeat-x; 
     background-size: cover; 
-    height: 50px; 
+    height: 50px;  */
   }

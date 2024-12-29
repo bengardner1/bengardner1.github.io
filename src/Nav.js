@@ -7,7 +7,7 @@ function NavItem({ to, label }) {
     <li className="nav-item">
     <Link
       to={to}
-      className={`nav-link ${pathname.includes(to) ? "bg-link-active" : ""}`}>
+      className={`nav-link ${pathname.includes(to) ? "bg-link-active" : "bg-link-inactive"}`}>
       {label}
     </Link>
     </li>

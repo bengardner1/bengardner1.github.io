@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'Josefin_Sans_Bold';
     src: local('Josefin_Sans_Bold'), url('./JosefinSans-Bold.ttf') format('truetype');
-    font-weight: bold; /* Specify the font weight */
+    font-weight: bold;
 }
 
 @font-face {

@@ -51,9 +51,9 @@ function Home() {
                     </div>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <Tree/>
-                </section>
+                </section> */}
                 <footer>
                 </footer>
         </div>
