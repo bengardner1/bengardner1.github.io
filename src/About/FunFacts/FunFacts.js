@@ -4,18 +4,18 @@ import TimeSinceDob from "./TimeSinceDob";
 
 function FunFactSection() {
   const facts = [
-    { question: "Hometown", answer: <a href="https://maps.app.goo.gl/6Nazwbko6PWpQ9eK9" target="_blank" className="bg-link">West Hartford, CT</a> },
-    { question: "Favorite Color", answer: "Green" },
-    { question: "Dream Travel Destination", answer: "New Zealand (partially bc of Lord of the Rings)  " },
+    { question: "Dream Travel Destination", answer: "New Zealand (partially bc of Lord of the Rings movies)  " },
     { question: "Favorite Food", answer: "Korean"},
-    { question: "Instrument", answer: "Saxophone" },
+    { question: "Instrument", answer: "Saxophone (clarinet too)" },
     { question: "Geoguessr High Score (Classic Mode)", answer: <a href="https://www.geoguessr.com/user/6191d093f629a70001686205" target="_blank" className="bg-link">24998 (profile is linked if you don't believe me)</a> },
-    { question: "Musical Artist", answer: "Bladee (where do I even begin)" },
+    { question: "Favorite Musical Artist", answer: <a href="https://wrbbradio.org/articles/bladee-is-actually-good">Bladee (where do I even begin)</a> },
     { question: "TV Show", answer: "Atlanta" },
-    { question: "Personality Type", answer: "INTJ" },
+    { question: "Favorite Color", answer: "Green" },
+    { question: "Personality Type", answer: "INTJ/ENTJ" },
     { question: "Time since I was born", answer: <div><TimeSinceDob /></div> },
-    { question: "Favorite Programming Language", answer: "C# as of now" },
-    { question: "Other Interests", answer: "History, Geography, Music" }
+    { question: "Favorite Book", answer: "Catch-22"},
+    { question: "Favorite Pokemon", answer: "Natu, Cyndaquil, Machamp, Gengar, Toxicroak, Bisharp, etc." },
+    { question: "Other Interests", answer: "History, Geography, Music Journalism, Travel, Magic the Gathering, Working out" }
   ];
 
   return (

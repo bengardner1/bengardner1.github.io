@@ -19,7 +19,7 @@
   }
   
   .card-front {
-    background-color: #dabeff;
+    background-color: #ede6f8;
     color: black;
   }
   
@@ -27,6 +27,15 @@
     background-color: #f8f9fa;
     color: black;
     transform: rotateY(180deg);
+  }
+
+  .card-back a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .card-back a:hover {
+    color: #000000;
   }
   
   .card-flip.flipped .card-front {

@@ -1,4 +1,3 @@
-import BannerPic from '../Images/banner_pic.jpeg';
 import Tree from './Tree';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -8,14 +7,10 @@ import './index.css';
 
 
 function Home() {
-    const size = 50;
-    const pathStub = "../../Logos/"
-    const logos = ["python.png", "mysql.png", "java.png", "node.png", "react.png", "csharp.png"]
     return (
         <div>
-            {/* Intro card */}
             <section className="bg-banner-section">
-                <img src={BannerPic} className='bg-banner-pic'></img>
+                <img src="/Pics/photos_of_me/banner_pic.jpeg" className='bg-banner-pic'></img>
                 <div className="bg-banner-container bg-banner-column"> 
                     <div>
                     <h3>Ben Gardner</h3> 
@@ -26,36 +21,21 @@ function Home() {
                     </div>
                 </div>
                 </section>
-                <section className='bg-hello'>
+                <section className='bg-hello mt-5'>
                 <div className='bg-hello-text'>
                     <p className='mb-4'>Hi, I'm Ben. I'm currently pursuing my BS in Computer Science at Northeastern University. My goal with this website is to not only give you an impression of myself as professional, but also demonstrate who I am as a person. Please feel free to reach out by email.</p>
-                    <div className='row mt-3 justify-content-center'>
+            <div className='row mt-3 justify-content-center pb-4 mb-5'>
                 <div className='col-4 text-center'>
-                    <a href="/resume.pdf" target='_blank' rel="noopener noreferrer"><button className='bg-hello-link'>Resume</button></a>
+                    <a href="/resume.pdf" target='_blank' rel="noopener noreferrer" className='bg-banner-link'>
+                        <p>Click here for Resume</p>
+                    </a>
                 </div>
             </div>
-
-                    </div>
-                </section>
-                <section className='bg-skills-section'>
-                    <div>
-                        <h3 className='justify-content-center'>Skills</h3>
-                        <div className='bg-skills'>
-                        {logos.map((logo) => {
-                            return (
-                                <div>
-                                    <img src={pathStub + logo} className='bg-skill-logo'></img>
-                                </div>
-                            )
-                        })}
-                    </div>
-                    </div>
+        </div>
                 </section>
                 {/* <section>
                     <Tree/>
                 </section> */}
-                <footer>
-                </footer>
         </div>
     );
 }

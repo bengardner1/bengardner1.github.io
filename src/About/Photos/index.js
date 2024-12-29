@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 const ImageCarousel = () => {
   // List of images for the carousel
   const images = [
+    "/Pics/photos_of_me/duck.jpeg",
     "/Pics/photos_of_me/bigben.jpeg",
     "/Pics/photos_of_me/br.jpeg",
     "/Pics/photos_of_me/burger.jpeg",
     "/Pics/photos_of_me/cheese.jpeg",
-    "/Pics/photos_of_me/duck.jpeg",
     "/Pics/photos_of_me/grad.jpeg",
     "/Pics/photos_of_me/lost.jpeg",
     "/Pics/photos_of_me/mirror.jpeg",
