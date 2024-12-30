@@ -19,7 +19,8 @@
   }
   
   .card-front {
-    background-color: #ede6f8;
+    /* background-color: #ede6f8; */
+    background-color: rgb(243, 243, 243);
     color: black;
   }
   

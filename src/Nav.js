@@ -21,7 +21,7 @@ function Nav() {
     setFlipped(!flipped);
   };
   return (
-    <div className="d-flex justify-content-between align-items-center">
+    <div className="d-flex justify-content-between align-items-center px-3">
   <div className={`text-container ${flipped ? 'flipped' : ''}`}
   onClick={handleClick}>
     bengardner.dev

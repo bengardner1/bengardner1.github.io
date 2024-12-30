@@ -12,11 +12,6 @@ a  {
   text-decoration: none;
 }
 
-.bg-link {
-  color: #000000 !important;
-  text-decoration: none !important;
-}
-
 section {
   display: flex;
   justify-content: center;

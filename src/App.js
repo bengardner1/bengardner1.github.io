@@ -21,16 +21,16 @@ function App() {
         <header className="pr-3">
           <Nav/>
         </header>
-        <main className="flex-grow-1 ps-4">
+        <main className="flex-grow-1 pb-5 mb-5">
           <Routes>
-            <Route path="/"    element={<Navigate to="/home"/>}/>
+            <Route path="/*"    element={<Navigate to="/home"/>}/>
             <Route path="/home"    element={<Home/>}/>
             <Route path="/about"    element={<About/>}/>
             <Route path="/projects"    element={<Projects/>}/>
-            <Route path="/pics"    element={<Pics/>}/>
+            {/* <Route path="/pics"    element={<Pics/>}/>
             <Route path="/writing"    element={<Writing/>}/>
             <Route path="/fun"    element={<Fun/>}/>
-            <Route path="/writing/:piece" element={<Piece/>}/>
+            <Route path="/writing/:piece" element={<Piece/>}/> */}
           </Routes>
         </main>
         <Footer/>

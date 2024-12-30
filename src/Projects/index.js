@@ -6,7 +6,7 @@ function Projects() {
     return (
         <div>
             <div className='bg-title'>
-                <h1>Projects</h1>
+                <h1>Personal Projects</h1>
                 <p>To view a private (<FaLock size={20} className='pb-1'/>) repo, please contact me at <a href='mailto:bengardner433@gmail.com'>bengardner433@gmail.com</a>.</p>
             </div>
             <div className='d-flex flex-row flex-wrap'>
